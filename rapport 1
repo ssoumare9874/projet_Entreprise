@@ -1,0 +1,61 @@
+🔎 Analyse Générale
+Ce code représente une page web de boutique simple mais bien structurée, réalisée avec :
+
+HTML5 pour le contenu
+
+CSS (interne + Bootstrap) pour le style
+
+Des images locales pour illustrer les produits
+
+Une section de contact fonctionnelle (non connectée à un backend pour l’instant)
+
+🧱 Structure de la Page
+1. En-tête (<head>)
+Chargement de Google Fonts (Poppins) pour une meilleure esthétique.
+
+Intégration de Bootstrap 5.3.5 via CDN pour une mise en page responsive.
+
+Une feuille de style externe est prévue (index.css), mais le style principal est en CSS interne.
+
+2. Corps de la page (<body>)
+✅ Header
+Image d’en-tête avec texte : nom du site + slogan.
+
+Utilisation d’une image de fond ENTETE.avif.
+
+✅ Barre de navigation (<nav>)
+Navigation fluide avec ancrage (#id) vers les sections de la page : Accueil, Produits, Pourquoi Nous, Contact.
+
+Effet hover en jaune (via :hover).
+
+✅ Section Produits
+Trois produits affichés : sac, chaussure, bracelet.
+
+Disposition en grille avec flex-wrap, responsive.
+
+Effet "hover" (agrandissement à 1.05) à l’interaction.
+
+✅ Section Pourquoi Nous
+Court texte marketing sur la qualité des produits.
+
+✅ Section Contact
+Formulaire avec Nom, Email, Message + bouton d’envoi.
+
+Coordonnées visibles (email et téléphone).
+
+Remarque : l'action du formulaire est fictive (action="#"), donc il ne fonctionne pas réellement pour l’instant.
+
+✅ Pied de page (footer)
+Simple, élégant, avec droit d’auteur.
+
+🎨 Design & CSS
+✅ Points positifs :
+Design sobre, propre et responsive.
+
+Utilisation efficace de Flexbox pour les produits.
+
+Bonne hiérarchisation des sections.
+
+Police Poppins cohérente avec le thème "mode".
+
+Le style est écrit de manière lisible et maintenable.
